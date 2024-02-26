@@ -13,6 +13,7 @@ export const guide = [
   {
     id: 2,
     img: secure,
+    name: "trust",
     headline: "Security you can trust",
     info: "2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.",
   },

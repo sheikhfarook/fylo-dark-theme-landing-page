@@ -1,6 +1,5 @@
 import { about } from "./aboutdata";
-import GetStarted from "./getstarted";
-
+import GetStarted from "../footer/getstarted";
 const AboutTheCompanys = () => {
   return (
     <div>
@@ -32,7 +31,6 @@ const AboutTheCompanys = () => {
           </div>
         ))}
       </div>
-      <GetStarted />
     </div>
   );
 };

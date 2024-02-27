@@ -63,7 +63,7 @@ const Guide = () => {
             <div className="w-[166px]  h-[27px]  flex items-center gap-2 ">
               <div
                 className="w-[140px] h-[22px] font-opensans text-[16px] text-[#62e0d9] font-[300]
-              hover:text-[#FFF]
+              hover:text-[#FFF] cursor-pointer
               max-sm:w-[110px] max-sm:h-[17px] max-sm:text-[12px] max-sm:font-[400] ">
                 See how Fylo works
               </div>

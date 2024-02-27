@@ -11,13 +11,13 @@ const Header = () => {
         <div
           className="flex gap-10 text-[#FFF] items-center text-[16px] font-raleway
         max-sm:text-[12px] max-sm:gap-6 ">
-          <div className="hover:underline hover:font-[700] font-[100]">
+          <div className="hover:underline hover:font-[700] font-[100] cursor-pointer">
             Features
           </div>
-          <div className="font-[100] hover:underline hover:font-[700]">
+          <div className="font-[100] hover:underline hover:font-[700] cursor-pointer">
             Team
           </div>
-          <div className="font-[100] hover:underline hover:font-[700]">
+          <div className="font-[100] hover:underline hover:font-[700] cursor-pointer">
             Sign In
           </div>
         </div>

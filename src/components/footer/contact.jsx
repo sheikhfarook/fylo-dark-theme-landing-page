@@ -65,22 +65,38 @@ const Contact = () => {
           {/* <div className="flex "> */}
           <div className="flex gap-20 max-sm:flex-col max-sm:gap-10  lg:flex-row">
             <div className="text-[16px] space-y-3 font-[300] font-opensans">
-              <div className="w-[67px]">About Us</div>
-              <div className="w-[31px]"> Jobs</div>
-              <div className="w-[40px]">Press</div>
-              <div className="w-[32px]"> Blog</div>
+              <div className="w-[77px]  cursor-pointer hover:font-[700]">
+                About Us
+              </div>
+              <div className="w-[31px]  cursor-pointer hover:font-[700]">
+                {" "}
+                Jobs
+              </div>
+              <div className="w-[40px]  cursor-pointer hover:font-[700]">
+                Press
+              </div>
+              <div className="w-[32px]  cursor-pointer hover:font-[700]">
+                {" "}
+                Blog
+              </div>
             </div>
             <div className="text-[16px]  space-y-3 font-[300] font-opensans">
-              <div className="w-[79px]">Contact Us</div>
-              <div className="w-[45px]">Terms</div>
-              <div className="w-[50px]">Privacy</div>
+              <div className="w-[87px] cursor-pointer hover:font-[700] ">
+                Contact Us
+              </div>
+              <div className="w-[45px] cursor-pointer hover:font-[700]">
+                Terms
+              </div>
+              <div className="w-[50px] cursor-pointer hover:font-[700]">
+                Privacy
+              </div>
             </div>
           </div>
           {/*  */}
           <div className="flex gap-5 max-sm:justify-center  md:justify-center  xl:flex-row">
             <div
               className="w-[31.22px] h-[31px] border-2 rounded-full 
-              max-sm:w-[27.06px] max-sm:h-[27px]">
+              max-sm:w-[27.06px] max-sm:h-[27px] cursor-pointer ">
               <img
                 className="w-[7.03px] h-[14.73px] m-auto justify-center my-1.5  hover:bg-white 
                   max-sm:w-[7.04px] maax-sm:h-[12.82px] max-sm:my-1"
@@ -90,7 +106,7 @@ const Contact = () => {
             </div>
             <div
               className="w-[31.22px] h-[31px] border-2 rounded-full
-              max-sm:w-[27.06px] max-sm:h-[27px]">
+              max-sm:w-[27.06px] max-sm:h-[27px] cursor-pointer ">
               <img
                 className="w-[7.03px] h-[14.73px] m-auto justify-center my-1.5 hover:bg-white
                   max-sm:w-[7.04px] maax-sm:h-[12.82px] max-sm:my-1"
@@ -101,7 +117,7 @@ const Contact = () => {
 
             <div
               className="w-[31.22px] h-[31px] border-2 rounded-full
-              max-sm:w-[27.06px] max-sm:h-[27px]">
+              max-sm:w-[27.06px] max-sm:h-[27px] cursor-pointer ">
               <img
                 className="w-[7.03px] h-[8px] m-auto justify-center my-2.5  hover:bg-white
                   max-sm:w-[7.04px] maax-sm:h-[12.82px] max-sm:my-2"

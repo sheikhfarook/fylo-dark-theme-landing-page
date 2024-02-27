@@ -51,7 +51,7 @@ const GetStarted = () => {
                 <div>
                   <button
                     className="w-[200px] h-[48px] bg-gradient-to-r from-[#63e1d9] to-[#34a0cd] rounded-[24px] 
-                max-sm:w-[280px] ">
+                    hover:from-[#7ac1d7] hover:to-[#7ac1d7]                 max-sm:w-[280px] ">
                     <div
                       className="w-[147px] h-[18px] font-raleway  
                   text-[14px] font-[700]  m-auto

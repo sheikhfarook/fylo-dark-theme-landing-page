@@ -25,10 +25,11 @@ const StartPoint = () => {
           family, and co-workers.
         </div>
         <div
-          className="w-[280px] h-[56px] rounded-[28px] shadow-md font-[700] py-4 m-auto 
-          bg-gradient-to-l from-[#34a0cd] to-[#63e1d9]
-          max-sm:w-[240px] max-sm:py-3.5 max-sm:h-[48px] max-sm:rounded-[24px] max-sm:text-[14px]
-         ">
+          className="w-[280px] h-[56px] rounded-[28px] shadow-md flex items-center justify-center 
+          cursor-pointer font-[700] m-auto 
+          bg-gradient-to-l from-[#34a0cd] to-[#63e1d9] hover:from-[#7ac1d7] hover:to-[#7ac1d7]  
+          max-sm:w-[240px] max-sm:h-[48px] max-sm:rounded-[24px] max-sm:text-[14px]
+                  ">
           Get Started
         </div>
       </div>

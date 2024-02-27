@@ -34,7 +34,7 @@ const GetStarted = () => {
                 className="flex gap-10 max-sm:flex-col max-sm:gap-5">
                 <div>
                   <input
-                    className="w-[480px] h-[48px] font-[300] rounded-[48px] text-[12px] pl-10 font-opensans text-[#c0c0c0]
+                    className="w-[480px] h-[48px] font-[300] rounded-[48px] text-[12px] pl-10 font-opensans text-[#000]
                   max-sm:w-[280px] max-sm:text-[10px] max-sm:font-[400] "
                     type="email"
                     placeholder="email@example.com"

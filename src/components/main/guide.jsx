@@ -31,7 +31,9 @@ const Guide = () => {
           </div>
         ))}
       </div>
-      <div className="flex items-center m-auto justify-center max-sm:flex-col">
+      <div
+        className="flex items-center m-auto justify-center max-sm:flex-col
+      md:flex-col  lg:flex-row ">
         <div>
           <img
             className="w-[614.76px] h-[463.63ppx] max-sm:w-[304px] max-sm:h-[229.27px] "
